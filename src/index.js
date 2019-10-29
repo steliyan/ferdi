@@ -11,6 +11,7 @@ import windowStateKeeper from 'electron-window-state';
 
 // Set app directory before loading user modules
 import { setUpDataPath } from './helpers/userdata-helpers';
+
 setUpDataPath();
 
 if (isDevMode) {
